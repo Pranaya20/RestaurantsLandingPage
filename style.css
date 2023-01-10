@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background:linear-gradient(rgba(12, 3, 96, 0.527),rgba(8, 8, 58, 0.5)) , url('./assets/img.png') no-repeat center center fixed ; 
+  background-size: cover;
+  background-position-y: 0px;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.list{
+  display:flex;
+}
+.list-item{
+  color: #FFD801;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 400;
+   list-style: none;
+
+}
+.logo{
+  margin-left: 40px;
+}
+.button-small{
+  margin-right: 60px;
+  color:white;
+  font-weight: bold;
+  padding:15px 30px;
+  font-size: 30px;
+  background-color: rgb(242 118 64);
+  border:none;
+}
+
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+.hero{
+  text-align: center;
+}
+.hero-heading{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 102px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right:10%;
+  margin: 5% 18% 5% 18%;
+  color: #FFD801;
+
+}
+.button-large{
+  color:white;
+  font-weight: bold;
+  padding:25px 40px;
+  font-size: 40px;
+  background-color: rgb(242 118 64);
+  border:none;
+}
+.bottom{
+  display: flex;
+  justify-content: end;
+}
+/* ------------------------------ */
